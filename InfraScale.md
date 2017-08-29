@@ -16,12 +16,8 @@ Also I will not dockerize the database as that might affect data persistence.
     
     
 **Monitoring/Alerting**
-	For monitoring I would prefer Datadog for there out of the box support for docker.
+	For monitoring I would prefer Datadog for they provide out of the box support for docker.
     
     
 **Logging**
 	For logging first I would mount the log directory as a docker volume then would ship the logs using filebeat to an ELK server for log aggregation and processing.
-
-    
-    
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
